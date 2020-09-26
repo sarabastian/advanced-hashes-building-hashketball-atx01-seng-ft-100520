@@ -5,9 +5,9 @@ require 'pry'
 def game_hash(nested_data)
   nested_data = {
     :home => {
-      {:team_name => "Brooklyn Nets"},
-      {:colors => ["Black", "White"]},
-      {:players => [ 
+      :team_name => "Brooklyn Nets",
+      :colors => ["Black", "White"],
+      :players => [ 
         {
         :player_name => "Alan Anderson"
         :number => 0,
@@ -63,7 +63,7 @@ def game_hash(nested_data)
         :blocks => 11,
         :slam_dunks => 1
          }
-        ]}
+        ]
     },
     :away => {
       
