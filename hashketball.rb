@@ -2,7 +2,7 @@
 
 require 'pry'
 
-def game_hash(nested_data)
+def game_hash()
   nested_data = {
     :home => {
       :team_name => "Brooklyn Nets",
