@@ -53,7 +53,7 @@ def game_hash(nested_data)
         :slam_dunks => 5
          },
          {
-        :player_name => "Jason Terry"
+        :player_name => "Jason Terry",
         :number => 31,
         :shoe => 15,
         :points => 19,
@@ -67,8 +67,8 @@ def game_hash(nested_data)
     },
     :away => {
       
-      :team_name => "Charlotte Hornets"
-      :colors = ["Turquoise", "Purple"]
+      :team_name => "Charlotte Hornets",
+      :colors = ["Turquoise", "Purple"],
       :players = [ 
         {
         :player_name => "Jeff Adrien",
