@@ -6,7 +6,7 @@ def game_hash(nested_data)
   nested_data = {
     :home => {
       :team_name => "Brooklyn Nets",
-      :colors => ["Black", "White"],
+      :colors = ["Black", "White"],
       :players = [ 
         {
         :player_name => "Alan Anderson"
@@ -68,8 +68,8 @@ def game_hash(nested_data)
     :away => {
       
       :team_name => "Charlotte Hornets"
-      :colors => ["Turquoise", "Purple"]
-      :players => [ 
+      :colors = ["Turquoise", "Purple"]
+      :players = [ 
         {
         :player_name => "Jeff Adrien",
         :number => 4,
